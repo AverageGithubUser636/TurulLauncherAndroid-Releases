@@ -33,10 +33,12 @@ https://github.com/AngelAuraMC/Amethyst-Android at commit
   (dynamic storage paths, non-SDL game activity, responsive R class support,
   system-GLES renderer defaults, archive-safe bootstrap). These modifications
   remain LGPL-3.0.
-- Corresponding source offer: the complete LGPL-covered source is this
-  repository's `runtime/` directory at the same commit as the distributed APK,
-  plus the pinned upstream commit above. Contact the TurulNetwork developers
-  for a source archive of the exact shipped binaries.
+- Corresponding source: the complete LGPL-covered source for each published
+  APK is attached to the matching GitHub release as
+  `turul-runtime-source-<version>.tar.gz`, together with this notice and the
+  license texts. The pinned upstream commit above is also available from the
+  Amethyst-Android repository. Contact the TurulNetwork developers if an
+  archive is missing or unreadable.
 
 ### Native and asset libraries from the Amethyst AARs
 
