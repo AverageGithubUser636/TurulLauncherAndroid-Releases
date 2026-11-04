@@ -1,7 +1,7 @@
-version=0.6.4
-versionCode=14
+version=0.6.5
+versionCode=15
 asset=TurulLauncher.apk
-sizeBytes=138575368
-sha256=BFB8BC154BA98BE0B9A58AE7ACBFCA001C89F20705F6387235A1C073353832EC
+sizeBytes=138603297
+sha256=096A8716C78759A91394BA22B205AC87FB1F96C1FC7D6D90A032C8245B5BF68A
 download=https://github.com/AverageGithubUser636/TurulLauncherAndroid-Releases/releases/latest/download/TurulLauncher.apk
-sourceAsset=turul-runtime-source-0.6.4.tar.gz
+sourceAsset=turul-runtime-source-0.6.5.tar.gz

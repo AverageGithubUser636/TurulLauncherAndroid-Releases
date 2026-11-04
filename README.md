@@ -12,9 +12,9 @@ https://github.com/AverageGithubUser636/TurulLauncherAndroid-Releases/releases/l
 Open this link on your phone. GitHub always serves the APK attached to the
 newest release; the filename stays `TurulLauncher.apk`.
 
-Current version: **0.6.4 (versionCode 14)**
-Size: **138,575,368 bytes (~138.6 MB)**
-SHA-256: `BFB8BC154BA98BE0B9A58AE7ACBFCA001C89F20705F6387235A1C073353832EC`
+Current version: **0.6.5 (versionCode 15)**
+Size: **138,603,297 bytes (~138.6 MB)**
+SHA-256: `096A8716C78759A91394BA22B205AC87FB1F96C1FC7D6D90A032C8245B5BF68A`
 
 ## Install
 
@@ -52,10 +52,10 @@ releases are signed with the same TurulLauncher release key.
 
 ## Current limitations
 
-- **No physical ARM64 device test is available in the build environment yet.**
-  The APK builds, its native libraries verify as 16 KB compatible, and the
-  launch pipeline is wired end-to-end, but the actual JVM/EGL/JNI/game launch
-  still needs a real-device run.
+- **Device testing is in progress.** The 0.6.4 diagnostics on an ARM64 phone
+  exposed a missing `libshadowhook.so` dependency (ByteHook/exithook could not
+  load) and an Amethyst icon/name resource override; 0.6.5 fixes both. The
+  actual Minecraft main-menu launch still needs to be confirmed on a phone.
 - Vanilla Minecraft versions only. Fabric/Forge/NeoForge are not implemented.
 - Only the `opengles_system_gles` renderer is exposed.
 - Minecraft online play requires a Microsoft account and a valid game
@@ -66,7 +66,7 @@ releases are signed with the same TurulLauncher release key.
 
 - Main source repository (private): https://github.com/AverageGithubUser636/TurulLauncher-Android
 - Runtime source for this release is attached as
-  `turul-runtime-source-0.6.4.tar.gz` to the release.
+  `turul-runtime-source-0.6.5.tar.gz` to the release.
 - The bundled Amethyst-Android runtime is LGPL-3.0. Its license and third-party
   notices are included in the source archive and in `THIRD_PARTY_NOTICES.md`.
 - Minecraft is a trademark of Mojang AB. This project is not affiliated with or

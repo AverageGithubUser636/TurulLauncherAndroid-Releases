@@ -76,6 +76,8 @@ bytehook © ByteDance, MIT):
 - `libandroidnsbypass.so` (built from the pinned submodule commit
   `9f57982abf007aacc45becfc9328ae06fa6bbe3b`)
 - `libbytehook.so` 1.1.2 (ByteDance, MIT, from Maven Central)
+- `libshadowhook.so` 1.1.1 (ByteDance, MIT, `com.bytedance.android:shadowhook:1.1.1`,
+  required by ByteHook; extracted from the Maven Central AAR)
 - `libc++_shared.so` (NDK LLVM libc++, Apache-2.0 with LLVM exception)
 
 Reproducible build recipe: `docs/RUNTIME_BUILD.md` (R2). Corresponding
